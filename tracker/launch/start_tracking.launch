@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find freenect_launch)/launch/freenect.launch"/>
+    
+    <node name="tracker" pkg="tracker" type="deep_detect.py" output="screen">
+        <param name="image_topic" value="/camera/rgb/image_color" />
+        <param name="point_cloud_topic" value="/camera/depth/points" />
+    </node>
+</launch>
+ 
