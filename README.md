@@ -6,11 +6,6 @@ Deep SOrt is an object tracking algorithm using several features to detect the s
 ```bash
 git clone https://github.com/Nicolasalan/deepsort_ros.git
 ```
-### Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 ### Run the tracker
 ```bash
